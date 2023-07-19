@@ -7,7 +7,7 @@
 /* banner */
 header {
     background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05); /*this gives shadow*/
     padding: 40px 240px;
     height: 130px;
 }
@@ -18,13 +18,15 @@ nav {
     align-items: center;
 }
 
+
+/* banner content */
+
+/* game icon and gamer text */
 nav .frame{
     display: flex;
     align-items: center;
     
 }
-
-/* banner content */
 .banner-title {
     font-size: 2.8rem;
     margin-left: 15px;
@@ -37,9 +39,10 @@ nav .frame{
 .amer-txt {
     color: #0B0223
 }
+/* Finish */
 
 
-/* banner right side */
+/* banner right side list items */
 nav>ul {
     display: flex;
     padding-top: 10px;
@@ -59,6 +62,8 @@ nav li {
 .li-txt{
     padding-top: 10px ;
 }
+
+/* the follow card */
 .follow-card{
     justify-content: center;
     align-items: center;
@@ -67,9 +72,11 @@ nav li {
     width: 262px;
     display: flex;
     justify-content: space-evenly;
+    padding: 10px;
+    gap: 5px;
     /* display: grid;
     grid-template-columns: repeat(3,1fr); */
-    gap: 5px;
-    /* padding: 5px 10px; */
-    padding: 10px;
+    /* padding: 5px 10px; */  
 }
+
+/* banner finishes here */
