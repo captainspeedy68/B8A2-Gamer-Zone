@@ -18,8 +18,16 @@ nav {
     align-items: center;
 }
 
+nav .frame{
+    display: flex;
+    align-items: center;
+    
+}
+
+/* banner content */
 .banner-title {
     font-size: 2.8rem;
+    margin-left: 15px;
 }
 
 .g-txt {
@@ -30,6 +38,8 @@ nav {
     color: #0B0223
 }
 
+
+/* right side */
 nav>ul {
     display: flex;
 }
