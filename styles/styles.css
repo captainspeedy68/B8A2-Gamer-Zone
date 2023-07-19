@@ -39,9 +39,10 @@ nav .frame{
 }
 
 
-/* right side */
+/* banner right side */
 nav>ul {
     display: flex;
+    padding-top: 10px;
 }
 
 nav li {
@@ -50,4 +51,25 @@ nav li {
     font-size: 1.2rem;
     list-style: none;
     margin-right: 30px;
+    text-align: center;
+    /* padding: 10px; */
+    /* align-items: center;
+    justify-content: center; */
+}
+.li-txt{
+    padding-top: 10px ;
+}
+.follow-card{
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    width: 262px;
+    display: flex;
+    justify-content: space-evenly;
+    /* display: grid;
+    grid-template-columns: repeat(3,1fr); */
+    gap: 5px;
+    /* padding: 5px 10px; */
+    padding: 10px;
 }
