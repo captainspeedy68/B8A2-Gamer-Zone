@@ -7,26 +7,30 @@
 /* banner */
 header {
     background: #FFF;
-    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05); /*this gives shadow*/
-    padding: 40px 240px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    /*this gives shadow*/
+    /* padding: 40px 240px; */
+    padding: auto;
     height: 130px;
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    /* justify-content: center; */
 }
 
 
 /* banner content */
 
 /* game icon and gamer text */
-nav .frame{
+nav .frame {
     display: flex;
     align-items: center;
-    
+
 }
+
 .banner-title {
     font-size: 2.8rem;
     margin-left: 15px;
@@ -39,6 +43,7 @@ nav .frame{
 .amer-txt {
     color: #0B0223
 }
+
 /* Finish */
 
 
@@ -59,12 +64,13 @@ nav li {
     /* align-items: center;
     justify-content: center; */
 }
-.li-txt{
-    padding-top: 10px ;
+
+.li-txt {
+    padding-top: 10px;
 }
 
 /* the follow card */
-.follow-card{
+.follow-card {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
@@ -76,7 +82,147 @@ nav li {
     gap: 5px;
     /* display: grid;
     grid-template-columns: repeat(3,1fr); */
-    /* padding: 5px 10px; */  
+    /* padding: 5px 10px; */
 }
 
 /* banner finishes here */
+
+/* main section starts here */
+
+/* section 1 of the main section */
+.section-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* section 2 text content */
+.section-2-content {
+    /* display: grid; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* background-color: #F144AE; */
+    /* fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%); */
+}
+
+.txt-play {
+    color: #0B0223;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.txt-goat {
+    text-align: center;
+    /* font-family: Work Sans; */
+    color: #8758F1;
+    font-size: 95px;
+    /* font-style: normal; */
+    font-weight: 800;
+    line-height: normal;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-icon, .download-icon, .peaple-icon{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.txt-click {
+    color: #534C64;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    text-transform: lowercase;
+}
+
+.txt-no-download {
+    color: #534C64;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.txt-supported {
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* button section 2 */
+.btn-primary {
+    /* padding: 21px 40px; */
+    /* align-items: flex-start; */
+    gap: 10px;
+    background-color: #FF42A5;
+    color: #FFF;
+    padding: 21px 40px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: normal;
+    /* display: inline-flex; */
+    /* padding: 20px 43px; */
+    /* gap: 0px; */
+    border-radius: 48px;
+    border: 0px;
+}
+
+.btn-rogue {
+    gap: 10px;
+    background-color: #4EC5F7;
+    color: #FFF;
+    padding: 21px 40px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    line-height: normal;
+    /* display: inline-flex; */
+    /* padding: 20px 43px; */
+    /* gap: 0px; */
+    border-radius: 48px;
+    border: 0px;
+}
+.section2-btn{
+    justify-content: space-around;
+}
+
+/* section 2 images */
+.section-2-img {
+    /* height: 100%; */
+    /* width: 100%; */
+    margin-left: 50px;
+}
+.sec2-img2{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Responsive Layout */
+@media screen and (max-width: 576px) {
+    header {
+        padding: 0;
+        box-shadow: none;
+    }
+
+    nav,
+    nav>ul {
+        flex-direction: column;
+    }
+
+    .follow-card {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    header {
+        padding: 0;
+    }
+
+}
