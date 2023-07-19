@@ -222,12 +222,24 @@ nav li {
     }
     .section-2-img img, .sec2-img2{
         /* margin: auto; */
-        margin: 0;
+        /* margin-left: 0px; */
+        /* margin: auto; */
         width: 100%;
         height: 100%;
     }
+    .section-2-img{
+        margin: auto;
+        margin-top: 60px;
+    }
     .section-2{
-        margin-top: 400px;
+        margin-top: 300px;
+    }
+    .icon-button{
+        display: flex;
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: center;
+        padding-left: 30px;
     }
 
     .follow-card {
