@@ -31,6 +31,7 @@ nav .frame {
 
 }
 
+
 .banner-title {
     font-size: 2.8rem;
     margin-left: 15px;
@@ -93,7 +94,7 @@ nav li {
 .section-2 {
     display: flex;
     justify-content: space-around;
-    
+
 }
 
 /* section 2 text content */
@@ -205,11 +206,12 @@ nav li {
 
 
 /* section 3 */
-.section-3{
+.section-3 {
     text-align: center;
     margin-top: 100px;
 
 }
+
 .txt-online {
     color: #0B0223;
     font-size: 3rem;
@@ -226,13 +228,14 @@ nav li {
     font-weight: 700;
 
 }
-.txt-hilarious{
+
+.txt-hilarious {
     font-weight: 400;
     font-size: 1rem;
 }
 
 /* Section-4 */
-.section-4{
+.section-4 {
     height: 100%;
     width: 100%;
     display: flex;
@@ -242,7 +245,7 @@ nav li {
     align-items: center;
 }
 
-.img1-txt{
+.img1-txt {
     font-weight: 500;
     font-size: 1.2rem;
     color: #534C64;
@@ -251,31 +254,37 @@ nav li {
 }
 
 /* section-5 */
-.section-5-play-card{
+.section-5-play-card {
     display: flex;
     justify-content: space-evenly;
     margin-top: 120px;
 }
-.section-5-play-card-text{
+
+.section-5-play-card-text {
     text-align: right;
 }
-.card-title{
+
+.card-title {
     font-weight: 700;
     font-size: 3rem;
 }
-.txt-instant{
+
+.txt-instant {
     color: #F948B2;
 }
-.card-para{
+
+.card-para {
     font-weight: 400;
     font-size: 1rem;
 
 }
+
 /* section-5 img */
-.section-5-img img{
+.section-5-img img {
     width: 100%;
 }
-.low-img{
+
+.low-img {
     height: 365px;
     width: 318px;
     position: relative;
@@ -286,13 +295,14 @@ nav li {
 
 /* button section in the footer starting */
 
-.btns-section{
+.btns-section {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.hover-btn{
+
+.hover-btn {
     font-weight: 600;
     font-size: 1rem;
     color: #0B0223;
@@ -306,13 +316,94 @@ nav li {
     /* display: flex; */
     /* display: flex; */
 }
-.hover-btn:hover{
+
+.hover-btn:hover {
     color: #FF42A5;
     border: 2px solid #FF42A5;
 }
-.align-btn{
+
+.align-btn {
     align-items: center;
     display: flex;
+}
+
+/* end foot section */
+
+.end {
+    margin-top: 50px;
+
+    background-color: #0B0223;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    border: #FF42A5 solid 2px;
+}
+
+.end .frame {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+}
+.end .amer-txt {
+    color: #FFF;
+}
+.end>ul {
+    display: flex;
+
+    /* justify-content: space-bet; */
+
+    /* border: #FF42A5 solid 2px; */
+}
+.end li {
+
+    list-style: none;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    margin-right: 60px;
+}
+
+.end li a {
+
+    /* list-style: none; */
+
+    color: #FFF;
+
+    font-weight: 600;
+
+    font-size: 1rem;
+
+    text-decoration: none;
+
+    /* /* display: flex;*/
+
+}
+
+.end-icon{
+    /* border: #FF42A5 solid 2px; */
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.end-icon img{
+    padding: 40px;
+}
+
+#end-list li a{
+    color: rgba(255, 255, 255, 0.60);
+    font-weight: 500;
+    font-size: 1rem;
+
 }
 
 
@@ -333,12 +424,15 @@ nav li {
         flex-direction: column;
         justify-content: center;
     }
-    .txt-play{
+
+    .txt-play {
         font-size: 2rem;
     }
-    .txt-goat{
+
+    .txt-goat {
         font-size: 5rem;
     }
+
     .section-2-img img,
     .sec2-img2 {
         width: 100%;
@@ -364,27 +458,32 @@ nav li {
     .follow-card {
         margin-top: 50px;
     }
-    .txt-funny,.txt-online{
+
+    .txt-funny,
+    .txt-online {
         font-size: 1.5rem;
     }
-    .section-5-play-card{
+
+    .section-5-play-card {
         justify-content: center;
     }
-    .section-5-play-card-text{
+
+    .section-5-play-card-text {
         text-align: center;
     }
-    
-    .section-5-img img{
+
+    .section-5-img img {
         /* height: 400px;
         width: 300px; */
     }
-    .section-5-cowboy{
+
+    .section-5-cowboy {
         height: 400px;
         width: 300px;
         padding-left: 55px;
     }
 
-    .low-img{
+    .low-img {
         height: 165px;
         width: 118px;
         left: 30px;
@@ -393,22 +492,25 @@ nav li {
         width: 100%px; */
     }
 
-    .btn-bottom,.btn-top {
+    .btn-bottom,
+    .btn-top {
         display: grid;
-        grid-template-columns: repeat(4,5fr);
+        grid-template-columns: repeat(4, 5fr);
     }
-    .hover-btn{
+
+    .hover-btn {
         padding: 1px;
         font-size: .6rem;
     }
-    .btns-section{
-        
-    }
-    .btns-section img{
+
+    .btns-section {}
+
+    .btns-section img {
         width: 20%;
     }
-    #hide-btn{
-        visibility:hidden;
+
+    #hide-btn {
+        visibility: hidden;
     }
 }
 
