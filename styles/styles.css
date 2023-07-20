@@ -299,6 +299,42 @@ nav li {
 
 }
 
+/* button section in the footer starting */
+
+.btns-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* border: #0B0223 solid 2px; */
+}
+.btn-top{
+
+}
+.hover-btn{
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: #0B0223;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    /* display: flex; */
+    /* display: flex; */
+}
+.hover-btn:hover{
+    color: #FF42A5;
+    border: 2px solid #FF42A5;
+}
+.align-btn{
+    align-items: center;
+    display: flex;
+}
+
+
 /* Responsive Layout */
 @media screen and (max-width: 576px) {
     header {
@@ -377,12 +413,26 @@ nav li {
         width: 100%px; */
     }
 
-    /* .txt-click, .txt-play, .txt-play{
-        justify-content: center;
-        align-items: center;
-    } */
-    /* .play-icon, .download-icon, .peaple-icon, .section2-btn{
-        justify-content: center;
+    .btn-bottom,.btn-top {
+        display: grid;
+        grid-template-columns: repeat(4,5fr);
+    }
+    .hover-btn{
+        padding: 1px;
+        font-size: .6rem;
+    }
+    .btns-section{
+        
+    }
+    .btns-section img{
+        width: 20%;
+    }
+    #hide-btn{
+        visibility:hidden
+    }
+    /* .btn-top{
+        display: grid;
+        grid-template-columns: repeat(2,4fr);
     } */
 }
 
