@@ -264,7 +264,7 @@ nav li {
 .section-5-play-card{
     display: flex;
     justify-content: space-evenly;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 .section-5-play-card-text{
     text-align: right;
@@ -281,6 +281,21 @@ nav li {
     font-weight: 400;
     font-size: 1rem;
 
+}
+/* section-5 img */
+.section-5-img{
+    /* display: flex;
+    flex-direction: column; */
+}
+.section-5-img img{
+    width: 100%;
+}
+.low-img{
+    height: 365px;
+    width: 318px;
+    position: relative;
+    bottom: 300px;
+    right: 100px;
 }
 
 /* Responsive Layout */
