@@ -341,8 +341,9 @@ nav li {
     justify-content: center;
 
     align-items: center;
+    padding-top: 50px;
 
-    border: #FF42A5 solid 2px;
+    /* border: #FF42A5 solid 2px; */
 }
 
 .end .frame {
@@ -404,6 +405,12 @@ nav li {
     font-weight: 500;
     font-size: 1rem;
 
+}
+#copyright{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    padding-bottom: 110px;
+    padding-top: 50px;
 }
 
 
