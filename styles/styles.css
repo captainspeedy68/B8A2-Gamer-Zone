@@ -209,7 +209,7 @@ nav li {
 .section-3 {
     text-align: center;
     margin-top: 100px;
-
+    margin-bottom: 100px;
 }
 
 .txt-online {
@@ -339,9 +339,11 @@ nav li {
 
 .btns-section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    gap: 20px;
+    /* align-items: center; */
+    /* flex-direction: column; */
 }
 
 .hover-btn {
@@ -547,10 +549,11 @@ nav li {
         width: 100%px; */
     }
 
-    .btn-bottom,
-    .btn-top {
+    /* .btn-bottom,
+    .btn-top, */
+    .btns-section {
         display: grid;
-        grid-template-columns: repeat(4, 5fr);
+        grid-template-columns: repeat(3,1fr);
     }
 
     .hover-btn {
@@ -565,7 +568,143 @@ nav li {
     }
 
     #hide-btn {
-        visibility: hidden;
+        /* visibility: hidden; */
+    }
+    .end li{
+        margin-right: 0px;
+        padding: 0px;
+        padding-left: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .end-icon{
+        /* padding: 0; */
+    }
+    .end-icon img{
+        padding: 10px;
+    }
+    #end-list-1{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 10px;
+        column-gap: 10px;
+        /* align-items: center;
+        justify-items: center; */
+        padding-right: 50px;
+    }
+    #end-list li a{
+        /* text-align: center; */
+        
+    }
+    #end-list{
+        padding-right: 40px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        margin-left: 40px;
+    }
+    #end-list li a{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 992px) {
+    header {
+        padding: 0;
+        box-shadow: none;
+    }
+
+    nav,
+    nav>ul,
+    .section-2,
+    .section-2-content,
+    .section-4,
+    .section-5-play-card {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .txt-play {
+        font-size: 2rem;
+    }
+
+    .txt-goat {
+        font-size: 5rem;
+    }
+
+    .section-2-img img,
+    .sec2-img2 {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section-2-img {
+        margin: auto;
+        margin-top: 60px;
+    }
+
+    .section-2 {
+        margin-top: 300px;
+    }
+
+    .icon-button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .follow-card {
+        margin-top: 50px;
+    }
+
+    .txt-funny,
+    .txt-online {
+        font-size: 1.5rem;
+    }
+
+    .section-5-play-card {
+        justify-content: center;
+    }
+
+    .section-5-play-card-text {
+        text-align: center;
+    }
+
+    .section-5-img img {
+        /* height: 400px;
+        width: 300px; */
+    }
+
+    .section-5-cowboy {
+        height: 400px;
+        width: 300px;
+        padding-left: 225px;
+    }
+
+    .low-img {
+        height: 165px;
+        width: 118px;
+        left: 180px;
+        bottom: 200px;
+        /* height: 50px;
+        width: 100%px; */
+    }
+
+    .btn-bottom,
+    .btn-top {
+        display: grid;
+        grid-template-columns: repeat(4, 5fr);
+    }
+
+    .hover-btn {
+        padding: 1px;
+        font-size: .6rem;
+    }
+
+    .btns-section img {
+        width: 20%;
     }
     .end li{
         margin-right: 0px;
@@ -596,12 +735,6 @@ nav li {
     }
     #end-list li a{
         font-size: 1rem;
-    }
-}
-
-@media screen and (min-width: 576px) and (max-width: 992px) {
-    header {
-        padding: 0;
     }
 
 }
