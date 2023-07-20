@@ -400,6 +400,12 @@ nav li {
     padding: 40px;
 }
 
+.end-icon button{
+    background-color: #0B0223;
+    border: none;
+    border-radius: 50px;
+}
+
 #end-list li a{
     color: rgba(255, 255, 255, 0.60);
     font-weight: 500;
