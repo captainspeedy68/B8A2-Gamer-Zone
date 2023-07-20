@@ -308,9 +308,9 @@ nav li {
     flex-direction: column;
     /* border: #0B0223 solid 2px; */
 }
-.btn-top{
+/* .btn-top{
 
-}
+} */
 .hover-btn{
     font-weight: 600;
     font-size: 1.2rem;
@@ -401,7 +401,7 @@ nav li {
     .section-5-cowboy{
         height: 400px;
         width: 300px;
-        padding-left: 60px;
+        padding-left: 55px;
     }
 
     .low-img{
@@ -428,12 +428,8 @@ nav li {
         width: 20%;
     }
     #hide-btn{
-        visibility:hidden
+        visibility:hidden;
     }
-    /* .btn-top{
-        display: grid;
-        grid-template-columns: repeat(2,4fr);
-    } */
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
