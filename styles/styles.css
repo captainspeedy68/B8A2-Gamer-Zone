@@ -296,6 +296,7 @@ nav li {
     position: relative;
     bottom: 300px;
     right: 100px;
+
 }
 
 /* Responsive Layout */
@@ -309,7 +310,8 @@ nav li {
     nav>ul,
     .section-2,
     .section-2-content,
-    .section-4 {
+    .section-4,
+    .section-5-play-card {
         /* margin-top: 500px; */
         flex-direction: column;
         justify-content: center;
@@ -348,6 +350,31 @@ nav li {
     }
     .txt-funny,.txt-online{
         font-size: 1.5rem;
+    }
+    .section-5-play-card{
+        justify-content: center;
+    }
+    .section-5-play-card-text{
+        text-align: center;
+    }
+    
+    .section-5-img img{
+        /* height: 400px;
+        width: 300px; */
+    }
+    .section-5-cowboy{
+        height: 400px;
+        width: 300px;
+        padding-left: 60px;
+    }
+
+    .low-img{
+        height: 165px;
+        width: 118px;
+        left: 30px;
+        bottom: 200px;
+        /* height: 50px;
+        width: 100%px; */
     }
 
     /* .txt-click, .txt-play, .txt-play{
